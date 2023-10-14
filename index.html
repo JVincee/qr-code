@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    
+    .attribution { 
+      font-size: 11px; 
+      text-align: center; 
+    }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: hsl(220, 15%, 55%);
+      font-size: 15px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .container {
+      width: 20%;
+      max-width: 1200px;
+      padding: 20px;
+      margin-top: 50px;
+      border-radius: 5%;
+      background-color: hsl(0, 0%, 100%);
+    }
+
+    .main {
+      width: 100%;
+    }
+
+    p, h2 {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      max-width: 360px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 5%;
+    }
+
+    @media (min-width: 375px) {
+      .container {
+        width: 60%;
+        border-radius: 5%;
+      }
+    }
+
+    @media (min-width: 600px) {
+      .container {
+        width: 30%;
+      }
+    }
+
+    @media (min-width: 1440px) {
+      body {
+        font-size: 15px;
+      }
+
+      .container {
+        width: 30%;
+        max-width: 1200px;
+        padding: 20px;
+        border-radius: 5%;
+        background-color: hsl(0, 0%, 100%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="images/image-qr-code.png" alt="image-qr-code">
+    <div class="main">
+      <h2>Improve your front-end skills by building projects</h2>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
